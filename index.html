@@ -1,0 +1,49 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html5-practice</title>
+    <style type="text/css">
+        body {
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            /*这里可以不写，flex布局默认方向横向即row*/
+            justify-content: center;
+            align-items: center;
+        }
+
+        canvas {
+            border: 1px solid black;
+            background-color: #3E2F5B;
+            opacity: 0.8;
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            z-index: 100;
+        }
+
+        p {
+
+            font-family: 'Permanent Marker', cursive;
+            font-size: 250px;
+
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas></canvas>
+    <p>html demo</p>
+    <script type="text/javascript" src="./index.js"></script>
+</body>
+
+</html>
